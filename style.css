@@ -1,0 +1,29 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.canvas-wrapper{
+    display: flex;
+    justify-content: center; 
+}
+
+#restart{
+    display: none;
+    position: absolute;
+    top: 310px;
+    left : 200px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family:cursive;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}

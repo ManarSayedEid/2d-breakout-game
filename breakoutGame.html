@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 2D-breakOut game!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="restart">Play Again!</div>
+    <div class="canvas-wrapper">
+
+
+        <canvas> </canvas>
+    </div>
+
+    <div style="display: none;">
+        <img src="image/score.png" id="score">
+    </div>
+
+    <div style="display: none;">
+        <img src="image/level.jpg" id="level">
+    </div>
+
+    <div style="display: none;">
+        <img src="image/life.png" id="life">
+    </div>
+
+
+    <!-- // background image -->
+    <div style="display: none;">
+        <img src="image/bg2.jpg" id="bg">
+    </div>
+
+    <!-- Game over Div -->
+
+    <div id="gameOver"
+        style=" display: none;position: absolute; top: 320px;left: 610px;width: 350px;height: 100px;background-color: #121212;border-radius: 20px;text-align: center;color: white;font-family: 'Courier New', Courier, monospace;font-size: 22px;">
+        <h1>Game Over !</h1>
+        <a href="frontPage.html">go to Start Menu!</a>
+    </div>
+
+    <div id="congrats"
+        style=" display: none;position: absolute; top: 320px;left: 610px;width: 450px;height: 100px;background-color: #121212;border-radius: 20px;text-align: center;color: white;font-family: 'Courier New', Courier, monospace;font-size: 22px;">
+        <h1>CONGRATULATIONS!!</h1>
+        <a href="frontPage.html">go to Start Menu!</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
